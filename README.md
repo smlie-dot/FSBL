@@ -1,0 +1,2 @@
+适配正点原子的stm32n6核心板的FSBL的例程
+验签txt:使用stm32programmer进行验签
