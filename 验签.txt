@@ -1,0 +1,11 @@
+# 在 FSBL 工程根目录下执行
+STM32_SigningTool_CLI.exe `
+    -bin  .\build\Debug\demo_FSBL.bin `
+    -nk `
+    -of   0x80000000 `
+    -t    fsbl `
+    -o    .\build\Debug\FSBL-trusted.bin `
+    -hv   2.3 `
+    -dump .\build\Debug\FSBL-trusted.bin `
+    -align `
+    -s
